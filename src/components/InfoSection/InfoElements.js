@@ -13,7 +13,7 @@ export const InfoWrapper = styled.div`
 display:grid;
 z-index:1;
 height:860px;
-width:100%auto;
+width:100%;
 max-width:1100px;
 margin-right:auto;
 margin-left:auto;
@@ -56,6 +56,7 @@ padding-bottom:60px;
 export const TopLine = styled.p`
 color:#01bf71;
 font-size:16px;
+line-height:16px;
 font-weight:700;
 letter-spacing:1.4px;
 text-transform:uppercase;
@@ -81,7 +82,7 @@ max-width:440px;
 margin-bottom:35px;
 font-size:18px;
 line-height:24px;
-color:${({darkText})=>(darkText?'#010606':'##fff')};
+color:${({darkText})=>(darkText?'#010606':'#fff')};
     
 `;
 
@@ -93,12 +94,13 @@ justify-content:flex-start;
 
 export const ImgWrap = styled.div`
 max-width:555px;
-height:100%auto;
+height:100%;
     
 `;
 
 export const Img = styled.img`
 width:100%;
+
 margin: 0 0 10px 0;
 padding-right:0;
     

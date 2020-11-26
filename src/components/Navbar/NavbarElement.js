@@ -4,9 +4,9 @@ import {Link as LinkScroll} from 'react-scroll'
 import { isInaccessible } from '@testing-library/react'
 
 export const Nav=styled.nav`
-background:#000;
+background:${({scrollNav})=>(scrollNav?'#000':'transparent')};
 height:80px;
-/*margin-top:-80px;*/
+margin-top:-80px;
 align-items:center;
 font-size:1rem;
 position:sticky;
