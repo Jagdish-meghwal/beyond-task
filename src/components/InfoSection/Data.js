@@ -1,4 +1,3 @@
-import { FaPiggyBank } from 'react-icons/fa';
 
 import car from '../../images/off_road.svg'
 import saving from '../../images/Saving.svg'
